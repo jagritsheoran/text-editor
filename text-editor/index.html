@@ -1,0 +1,47 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="textEditor.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script type="text/javascript" src="textEditor.js"></script>
+</head>
+
+<body>
+<header>
+  <h1>So, what's your story?</h1>
+  <h2 class="header-anchor"><a href="#textbelt">Click here to begin writing...</a></h2>
+</header>
+
+<div class="textbelt" id="textbelt" contenteditable="true"> 
+    
+    <p id="first_paragraph"  data-ph="Start here"></p>
+
+    <div id="cal1">&nbsp;</div>
+    <div id="cal2">&nbsp;</div>
+    
+    <div class="tooltip" id="tooltip">
+      <div class="tool-box">
+        <img class="tool" id="bold-text" src="/images/bold-text-option.png">
+        <img class="tool" id="underline-text" src="/images/underline-text-option.png">
+        <img class="tool" id="red-text" src="/images/R.png">
+      </div>
+    </div>
+
+</div>
+
+<div class="button-holder">  
+   <div class="buttons button-color" id="Re-order-button">Re-order</div> 
+   <div class="buttons button-color" id="random-button" onclick="getText()">Randomize</div>
+</div>
+<div class="button-color" id="done-button">DONE</div>
+
+<div class="links">
+   <h2>Access your links below</h2>
+   <p class="ul-links"> 
+
+   </p>
+</div>
+
+
+</body>
+</html>

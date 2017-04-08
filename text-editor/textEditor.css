@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah');
+
+body{
+	overflow-x: hidden;
+	margin:0px;
+position: relative;
+}
+
+header{
+	background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("/images/background_header.jpeg") center center;
+	margin:0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	
+	height: 100%;
+
+}
+.header-anchor{
+	color:white;
+	font-family: 'Gloria Hallelujah', cursive !important; 
+	font-size: 28px;
+	margin:-10px auto;
+	text-align: center;
+    cursor: pointer;
+}
+h1{
+font-family: 'Gloria Hallelujah', cursive;
+font-size: 70px;
+text-align: center;
+color: white;
+padding-top: 200px;
+margin-bottom: 0px;
+
+}
+
+.textbelt{
+	width:75%;
+	min-height: 425px;
+	margin: 10px auto;
+	margin-bottom: 10px;
+	background-color: white;
+  position: relative;
+  
+  padding: 10px;  
+  padding-top: 20px;
+  outline: none;
+}
+
+p{
+font-family: 'Montserrat', sans-serif;
+font-weight: 300;
+font-size: 20px;
+border: 0.01px solid white;
+border-radius: 10px;
+padding-left: 10px;
+
+
+
+}
+ 
+ #first_paragraph:empty:not(:focus):before{
+ 	content:attr(data-ph);
+ 	color:#5D6D7E;
+ 	font-size: 20px;
+ }
+
+.para-block{
+	display: flex;
+
+} 
+.para-control{
+height: 20px;
+width: 20px;
+}
+
+#cal1{
+    position:absolute;
+    height:0px;
+    width:0px;
+    top:100px;
+    left:100px;
+    overflow:none;
+    z-index:-100;
+}
+#cal2{
+    position:absolute;
+    height:0px;
+    width:0px;
+    top:0px;
+    left:0px;
+    overflow:none;
+    z-index:-100;
+}
+
+.tooltip{
+	height:25px;
+	width:100px;
+    background-color: #323232  ;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    padding-top: 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+.tool{
+	cursor: pointer;
+	height: 20px;
+	width: 20px;
+
+}
+
+.tool-box{
+	background-color: 
+	margin-right: 0px;
+display: flex;
+width:120px;
+justify-content: space-around;
+}
+.button-holder{
+	content: "";
+	display: table;
+	clear: both;
+	width: 240px;
+	margin: 0px auto;
+
+}
+
+.buttons{
+	height:35px;
+  width: 80px;
+  
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  
+  border-radius: 10px;
+ margin:10px auto; 
+display: flex;  
+padding:0px 10px;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+float: left;
+font-weight: 700;
+}
+
+#random-button{
+
+	margin-left: 40px;
+}
+
+#done-button{
+	height:50px;
+  width: 200px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 18px;
+  border-radius: 10px;
+ margin:10px auto; 
+display: flex;  
+padding:10px auto;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+font-weight: 700;
+}
+
+.button-color{
+background-color: #B8B8B9;	
+color: black;
+}
+
+
+.links{
+    padding-left: 20px;
+	width: 100%;
+	overflow-y: scroll;
+	display: none;
+    overflow-x: hidden;
+ background-color:#E6E6E7;
+text-align: center;}
+
+.ul-links{
+	border:0px;
+}
+h2{
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+li{
+	
+
+ font-family: 'Montserrat', sans-serif;
+
+}
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+.draggable {
+  filter: alpha(opacity=100);
+  opacity: 1.0;
+}
+
+.dropped {
+  position: static !important;
+  z-index: 100;
+}
